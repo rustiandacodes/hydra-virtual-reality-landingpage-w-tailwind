@@ -16,50 +16,33 @@
     <link rel="stylesheet" href="/dist/output.css" />
     <title>Hydra</title>
   </head>
-  <body class="overflow-hidden">
-    <section id="hero" class="pt-40 pb-32">
-      <div class="container mx-auto">
-        <div class="flex flex-wrap-reverse items-center justify-between">
-          <div class="w-full lg:w-1/2">
-            <h2 class="text-h2 text-center font-bold lg:text-left">
-              <span
-                class="text-h1 gradient-primary inline-block text-transparent bg-clip-text"
-              >
-                Dive
+  <body>
+    <section id="hero" class="pt-36 pb-32">
+      <div class="container relative mx-auto">
+        <img src="/dist/assets/Vector 4.svg" alt="Vector" class="hidden lg:block absolute -left-28">
+        <div class="flex flex-wrap-reverse justify-between items-center">
+          <div class="w-full lg:w-1/2 p-4">
+            <h2 class="text-center lg:text-left font-bold"><span class="text-h1 font-extrabold text-gradient">Dive</span> Into The Depths</h2>
+            <h2 class="text-center lg:text-left font-bold">of <span class="text-h1 font-extrabold text-gradient">Virtual Reality</span></h2>
+            <p class="hidden max-w-md my-8 lg:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia non id iste fuga optio, omnis, odit delectus nisi earum itaque eaque esse laboriosam cupiditate.</p>
+            <div class="w-full flex items-center gap-5 p-4 lg:p-0">
+              <a href="#" class="btn-gradient">build your world</a>
+              <span class="hidden lg:inline cursor-pointer hover:opacity-80">
+                <svg width="46" height="38" viewBox="0 0 46 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M43.8333 19L2.16666 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </span>
-              Into The Depth
-            </h2>
-            <h2 class="text-h2 text-center font-bold lg:text-left -mt-3">
-              of
-              <span
-                class="text-h1 gradient-primary inline-block text-transparent bg-clip-text"
-              >
-                Virtual Reality
-              </span>
-            </h2>
-            <p class="py-10 hidden lg:block">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-              tempora quis magni sit eius ea vero animi hic, doloribus voluptate
-              culpa commodi accusantium. Ullam neque mollitia consectetur vitae
-              sapiente laboriosam debitis at laborum asperiores.
-            </p>
-            <div class="w-full flex justify-center lg:justify-start p-4 lg:p-0">
-              <a href="#" class="btn-gradient">Build Your world</a>
             </div>
-          </div>
-          <div class="w-full lg:w-1/2 mb-3 mx-auto relative">
-            <img
-              src="/dist/assets/hero-vector.png"
-              alt="image-vector-hero"
-              class="absolute bottom-[-50px] sm:bottom-[-200px] md:bottom-[-250px] lg:left-[50px] lg:scale-125 mx-auto -z-10"
-            />
+        </div>
+          <div class="w-full lg:w-1/2 relative p-4 ">
             <img
               src="/dist/assets/hero-ilustration.png"
-              alt="hero-image"
-              class="mx-auto lg:scale-150 lg:absolute lg:right-[65px] lg:bottom-[-150px]"
+              alt="hero-ilustration"
+              class="mx-auto lg:scale-150 lg:absolute lg:right-20 lg:bottom-[-130px]"
             />
+            <img src="/dist/assets/hero-vector.png" alt="hero-ilustration" class="absolute bottom-[-80px] sm:bottom-[-150px] lg:bottom-[-300px] scale-105 lg:scale-125 -z-10 ">
           </div>
-        </div>
+          
       </div>
     </section>
   </body>
