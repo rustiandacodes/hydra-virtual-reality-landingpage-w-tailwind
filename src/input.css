@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-white bg-primary font-montserrat;
+    @apply text-white bg-primary font-montserrat lg:overflow-auto;
   }
 
   h2 {
@@ -18,12 +18,16 @@
 
 @layer components {
   .btn-gradient {
-    @apply max-w-md lg:max-w-fit mx-auto lg:mx-0 block text-center text-sm lg:text-xs text-primary uppercase font-semibold px-6 py-3 rounded-full bg-gradient-to-r from-gradientLeft to-gradientRight shadow-lg hover:opacity-80 transition duration-500;
+    @apply max-w-lg lg:max-w-fit mx-auto lg:mx-0 block text-center text-sm lg:text-xs text-primary uppercase font-semibold px-6 py-3 rounded-full bg-gradient-to-r from-gradientLeft to-gradientRight shadow-lg hover:opacity-80 transition duration-500;
   }
 }
 
 @layer utilities {
   .text-gradient {
     @apply bg-gradient-to-r from-gradientLeft to-gradientRight bg-clip-text text-transparent;
+  }
+
+  .swiper {
+    @apply w-full h-full;
   }
 }

@@ -11,6 +11,8 @@ module.exports = {
         secondary: '#343045',
         gradientLeft: '#8176AF',
         gradientRight: '#C0B7E8',
+        purpleCorner: '#211E2E',
+        purpleMiddle: '#3A3456',
       },
       fontSize: {
         h1: 'clamp(2.25rem, calc(2.03rem + 1.09vw), 2.88rem);', //42px

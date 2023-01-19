@@ -14,36 +14,142 @@
 
     <!-- style css from compailer -->
     <link rel="stylesheet" href="/dist/output.css" />
+
+    <!-- style css from swiper -->
+    <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css" />
+
     <title>Hydra</title>
   </head>
   <body>
+    <!-- Hero Section First -->
     <section id="hero" class="pt-36 pb-32">
       <div class="container relative mx-auto">
-        <img src="/dist/assets/Vector 4.svg" alt="Vector" class="hidden lg:block absolute -left-28">
+        <img
+          src="/dist/assets/Vector 4.svg"
+          alt="Vector"
+          class="hidden lg:block absolute -left-28"
+        />
         <div class="flex flex-wrap-reverse justify-between items-center">
           <div class="w-full lg:w-1/2 p-4">
-            <h2 class="text-center lg:text-left font-bold"><span class="text-h1 font-extrabold text-gradient">Dive</span> Into The Depths</h2>
-            <h2 class="text-center lg:text-left font-bold">of <span class="text-h1 font-extrabold text-gradient">Virtual Reality</span></h2>
-            <p class="hidden max-w-md my-8 lg:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quia non id iste fuga optio, omnis, odit delectus nisi earum itaque eaque esse laboriosam cupiditate.</p>
+            <h2 class="text-center lg:text-left font-bold">
+              <span class="text-h1 font-extrabold text-gradient">Dive</span>
+              Into The Depths
+            </h2>
+            <h2 class="text-center lg:text-left font-bold">
+              of
+              <span class="text-h1 font-extrabold text-gradient">
+                Virtual Reality
+              </span>
+            </h2>
+            <p class="hidden max-w-md my-8 lg:block">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              quia non id iste fuga optio, omnis, odit delectus nisi earum
+              itaque eaque esse laboriosam cupiditate.
+            </p>
             <div class="w-full flex items-center gap-5 p-4 lg:p-0">
               <a href="#" class="btn-gradient">build your world</a>
               <span class="hidden lg:inline cursor-pointer hover:opacity-80">
-                <svg width="46" height="38" viewBox="0 0 46 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M43.8333 19L2.16666 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33333" stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg
+                  width="46"
+                  height="38"
+                  viewBox="0 0 46 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M43.8333 19L2.16666 19M43.8333 19L27.1667 35.6667M43.8333 19L27.1667 2.33333"
+                    stroke="#C0B7E8"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
                 </svg>
               </span>
             </div>
-        </div>
-          <div class="w-full lg:w-1/2 relative p-4 ">
+          </div>
+          <div class="w-full lg:w-1/2 relative p-4">
             <img
               src="/dist/assets/hero-ilustration.png"
               alt="hero-ilustration"
               class="mx-auto lg:scale-150 lg:absolute lg:right-20 lg:bottom-[-130px]"
             />
-            <img src="/dist/assets/hero-vector.png" alt="hero-ilustration" class="absolute bottom-[-80px] sm:bottom-[-150px] lg:bottom-[-300px] scale-105 lg:scale-125 -z-10 ">
+            <img
+              src="/dist/assets/hero-vector.png"
+              alt="hero-ilustration"
+              class="absolute bottom-[-80px] sm:bottom-[-150px] lg:bottom-[-300px] scale-90 lg:scale-125 -z-10"
+            />
           </div>
-          
+        </div>
+        <div class="px-8 lg:p-0">
+          <div
+            class="max-w-sm mx-auto lg:max-w-none lg:w-full rounded-full lg:mt-24 bg-gradient-to-r from-purpleCorner via-purpleMiddle to-purpleCorner relative p-4 lg:px-2 lg:py-4 z-10"
+          >
+            <div class="swiper mySwiper relative">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide flex justify-center gap-3">
+                  <img
+                    class="w-14"
+                    src="/dist/assets/Location-Icon.svg"
+                    alt="icon-location"
+                  />
+                  <div class="text-start truncate">
+                    <h3 class="text-h3 font-bold">Pay Us a Visit</h3>
+                    <p>
+                      Union St, Seattle, WA 98101, US
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide flex justify-center items-center gap-3"
+                >
+                  <img
+                    class="w-14"
+                    src="/dist/assets/call.svg"
+                    alt="icon-location"
+                  />
+                  <div class="text-start truncate">
+                    <h3 class="text-h3 font-bold">Give Us a Call</h3>
+                    <p>(110) 1111-1010</p>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide flex justify-center items-center gap-3"
+                >
+                  <img
+                    class="w-14"
+                    src="/dist/assets/mail.svg"
+                    alt="icon-location"
+                  />
+                  <div class="text-start truncate">
+                    <h3 class="text-h3 font-bold">Send Us a Message</h3>
+                    <p>Contact@HydraVTech.com</p>
+                  </div>
+                </div>
+              </div>
+              <!-- navigation buttons -->
+              <div
+                class="lg:hidden lg:px-4 w-full flex justify-between items-center absolute top-[28%] z-50"
+              >
+                <div class="button-prev">
+                  <img
+                    src="/dist/assets/chevron-circle-left.svg"
+                    alt="icon-chev"
+                  />
+                </div>
+                <div class="button-next">
+                  <img
+                    src="/dist/assets/chevron-circle-right.svg"
+                    alt="icon-chev"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- Hero Section End -->
   </body>
+  <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
+  <script src="/src/script.js"></script>
 </html>
