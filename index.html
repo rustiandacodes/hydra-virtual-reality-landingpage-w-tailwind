@@ -80,76 +80,60 @@
             />
           </div>
         </div>
-        <div class="px-8 lg:p-0">
+        <div class="px-4 lg:px-0">
           <div
-            class="max-w-sm mx-auto lg:max-w-none lg:w-full rounded-full lg:mt-24 bg-gradient-to-r from-purpleCorner via-purpleMiddle to-purpleCorner relative p-4 lg:px-2 lg:py-4 z-10"
+            class="lg:w-full lg:max-w-none max-w-md mx-auto lg:mt-28 rounded-full bg-gradient-to-r from-purpleCorner via-purpleMiddle to-purpleCorner p-4 z-20"
           >
-            <div class="swiper mySwiper relative">
+            <div class="swiper mySwiper relative cursor-grab">
+              <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
-                <div class="swiper-slide flex justify-center gap-3">
+                <!-- Slides -->
+                <div class="swiper-slide flex items-center justify-center gap-6">
                   <img
-                    class="w-14"
                     src="/dist/assets/Location-Icon.svg"
-                    alt="icon-location"
+                    alt="icon"
+                    class="w-14"
                   />
-                  <div class="text-start truncate">
+                  <div class="content truncate">
                     <h3 class="text-h3 font-bold">Pay Us a Visit</h3>
-                    <p>
-                      Union St, Seattle, WA 98101, US
+                    <p class="text-paragraph">
+                      Union St, Seattle, WA 98101, United States
                     </p>
                   </div>
                 </div>
-                <div
-                  class="swiper-slide flex justify-center items-center gap-3"
-                >
-                  <img
-                    class="w-14"
-                    src="/dist/assets/call.svg"
-                    alt="icon-location"
-                  />
-                  <div class="text-start truncate">
+                <div class="swiper-slide flex items-center justify-center gap-6">
+                  <img src="/dist/assets/call.svg" alt="icon" class="w-14" />
+                  <div class="content truncate">
                     <h3 class="text-h3 font-bold">Give Us a Call</h3>
-                    <p>(110) 1111-1010</p>
+                    <p class="text-paragraph">
+                      (110) 1111-1010
+                    </p>
                   </div>
                 </div>
-                <div
-                  class="swiper-slide flex justify-center items-center gap-3"
-                >
-                  <img
-                    class="w-14"
-                    src="/dist/assets/mail.svg"
-                    alt="icon-location"
-                  />
-                  <div class="text-start truncate">
+                <div class="swiper-slide flex items-center justify-center gap-6">
+                  <img src="/dist/assets/mail.svg" alt="icon" class="w-14" />
+                  <div class="content truncate">
                     <h3 class="text-h3 font-bold">Send Us a Message</h3>
-                    <p>Contact@HydraVTech.com</p>
+                    <p class="text-paragraph">
+                      Contact@HydraVTech.com
+                    </p>
                   </div>
                 </div>
               </div>
-              <!-- navigation buttons -->
-              <div
-                class="lg:hidden lg:px-4 w-full flex justify-between items-center absolute top-[28%] z-50"
-              >
-                <div class="button-prev">
-                  <img
-                    src="/dist/assets/chevron-circle-left.svg"
-                    alt="icon-chev"
-                  />
+              <div class="w-full lg:hidden flex justify-between absolute top-[28%] ">
+                <div class="button-prev z-50">
+                  <img src="/dist/assets/chevron-circle-left.svg" alt="icon">
                 </div>
-                <div class="button-next">
-                  <img
-                    src="/dist/assets/chevron-circle-right.svg"
-                    alt="icon-chev"
-                  />
+                <div class="button-next z-50">
+                  <img src="/dist/assets/chevron-circle-right.svg" alt="icon">
                 </div>
               </div>
             </div>
-          </div>
         </div>
-      </div>
+        </div>
     </section>
     <!-- Hero Section End -->
   </body>
   <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
-  <script src="/src/script.js"></script>
+  <script src="/dist/script.js"></script>
 </html>
