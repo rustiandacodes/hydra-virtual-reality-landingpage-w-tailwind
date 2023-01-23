@@ -12,7 +12,7 @@
   }
 
   p {
-    @apply text-paragraph;
+    @apply text-paragraph leading-relaxed;
   }
 }
 
