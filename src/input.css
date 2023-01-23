@@ -26,8 +26,46 @@
   .text-gradient {
     @apply bg-gradient-to-r from-gradientLeft to-gradientRight bg-clip-text text-transparent;
   }
+  .bg-gradient {
+    @apply bg-gradient-to-r from-gradientLeft to-gradientRight;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-gradientLeft to-gradientRight;
+  }
 
   .swiper {
     @apply w-full h-full;
   }
+
+  .hamburger-inline-corner {
+    @apply w-10 h-[5px] block bg-gradient rounded-full my-2;
+  }
+  .hamburger-inline-middle {
+    @apply w-7 h-[5px] block bg-gradient rounded-full my-2;
+  }
+}
+
+.hamburger-active > span:nth-child(1) {
+  @apply rotate-45 absolute bottom-[55%];
+}
+.hamburger-active > span:nth-child(2) {
+  @apply scale-0 ease-in-out;
+}
+.hamburger-active > span:nth-child(3) {
+  @apply -rotate-45 absolute top-[60%];
+}
+
+.navbar-fixed {
+  @apply fixed bg-gradient-to-r from-purpleCorner via-purpleMiddle to-purpleCorner opacity-[98%];
+  backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-phone {
+  @apply bg-gradient-to-r from-purpleCorner via-purpleMiddle to-purpleCorner opacity-[98%] absolute top-0  w-full h-screen left-0 -z-10;
+}
+
+.nav-links {
+  @apply flex flex-col gap-5 lg:flex-none items-center justify-between absolute left-[38%] top-1/4 h-72;
 }

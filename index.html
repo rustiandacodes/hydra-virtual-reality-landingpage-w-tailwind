@@ -21,8 +21,39 @@
     <title>Hydra</title>
   </head>
   <body>
+    <!-- Navbar First -->
+    <header class="fixed w-full z-[999]">
+      <div class="container mx-auto">
+        <div class="w-full flex p-4 justify-between items-center">
+          <div class="logo">
+            <img src="/dist/assets/hydra icon.svg" alt="">
+          </div>
+          <nav>
+            <ul id="links" class="hidden lg:flex lg:ml-14 lg:gap-9">
+              <li><a href="#" class="uppercase text-lg lg:text-paragraph font-semibold text-white">About</a></li>
+              <li><a href="#" class="uppercase text-lg lg:text-paragraph font-semibold text-white">services</a></li>
+              <li><a href="#" class="uppercase text-lg lg:text-paragraph font-semibold text-white">Technologies</a></li>
+              <li><a href="#" class="uppercase text-lg lg:text-paragraph font-semibold text-white">how to</a></li>
+              <li><a href="#" class="uppercase text-lg lg:text-paragraph font-semibold text-white lg:hidden">Contact us</a></li>
+              <li><a href="#" class="uppercase text-lg lg:text-paragraph font-semibold text-white lg:hidden">join hydra</a></li>
+            </ul>
+          </nav>
+          <div class="hidden lg:block">
+            <a href="#" class="uppercase text-paragraph font-bold px-5 py-2 rounded-full border-[3px] border-white mr-2 hover:text-primary hover:bg-gradient hover:border-none hover:py-3">contact us</a>
+            <a href="#" class="uppercase text-paragraph font-bold px-5 py-3 rounded-full text-primary bg-gradient hover:opacity-80">join hydra</a>
+          </div>
+          <button id="hamburger" class="rotate-180 h-10 relative lg:hidden">
+            <span class="hamburger-inline-corner duration-300 origin-top-left"></span>
+            <span class="hamburger-inline-middle duration-300"></span>
+            <span class="hamburger-inline-corner duration-300 origin-bottom-left"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
     <!-- Hero Section First -->
-    <section id="hero" class="pt-36 pb-32">
+    <section id="hero" class="lg:pt-48 pt-32 pb-32 overflow-hidden sm:overflow-auto">
       <div class="container relative mx-auto">
         <img
           src="/dist/assets/Vector 4.svg"
@@ -76,7 +107,7 @@
             <img
               src="/dist/assets/hero-vector.png"
               alt="hero-ilustration"
-              class="absolute bottom-[-80px] sm:bottom-[-150px] lg:bottom-[-300px] scale-90 lg:scale-125 -z-10"
+              class="absolute bottom-[-80px] sm:bottom-[-150px] lg:bottom-[-300px] scale-125 sm:scale-90 lg:scale-110 -z-10"
             />
           </div>
         </div>
@@ -133,6 +164,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
+
   </body>
   <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="/dist/script.js"></script>
