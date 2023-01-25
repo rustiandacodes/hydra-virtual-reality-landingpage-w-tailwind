@@ -422,6 +422,7 @@ video {
 body {
   --tw-bg-opacity: 1;
   background-color: rgb(48 44 66 / var(--tw-bg-opacity));
+  padding-bottom: 24rem;
   font-family: Montserrat;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -641,56 +642,16 @@ p {
   top: 28%;
 }
 
+.bottom-1\/4 {
+  bottom: 25%;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
 
-.bottom-20 {
-  bottom: 5rem;
-}
-
-.bottom-40 {
-  bottom: 10rem;
-}
-
-.bottom-24 {
-  bottom: 6rem;
-}
-
-.bottom-28 {
-  bottom: 7rem;
-}
-
-.bottom-1\/2 {
-  bottom: 50%;
-}
-
-.bottom-\[20px\] {
-  bottom: 20px;
-}
-
-.bottom-\[10px\] {
-  bottom: 10px;
-}
-
-.bottom-\[15px\] {
-  bottom: 15px;
-}
-
-.bottom-\[50px\] {
-  bottom: 50px;
-}
-
-.bottom-\[100px\] {
-  bottom: 100px;
-}
-
-.bottom-1\/3 {
-  bottom: 33.333333%;
-}
-
-.bottom-1\/4 {
-  bottom: 25%;
+.top-\[50\%\] {
+  top: 50%;
 }
 
 .z-\[999\] {
@@ -731,12 +692,16 @@ p {
   margin-top: 2rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -751,6 +716,14 @@ p {
   height: 2.5rem;
 }
 
+.h-40 {
+  height: 10rem;
+}
+
+.h-\[2px\] {
+  height: 2px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -761,6 +734,10 @@ p {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .max-w-md {
@@ -848,8 +825,16 @@ p {
   border-radius: 9999px;
 }
 
+.rounded-\[40px\] {
+  border-radius: 40px;
+}
+
 .border-\[3px\] {
   border-width: 3px;
+}
+
+.border-\[12px\] {
+  border-width: 12px;
 }
 
 .border-white {
@@ -857,9 +842,14 @@ p {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.bg-slate-300 {
+.border-purpleCorner {
+  --tw-border-opacity: 1;
+  border-color: rgb(33 30 46 / var(--tw-border-opacity));
+}
+
+.bg-slate-600 {
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -885,6 +875,10 @@ p {
   padding: 1rem;
 }
 
+.p-7 {
+  padding: 1.75rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -905,8 +899,21 @@ p {
   padding-right: 1rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-32 {
   padding-top: 8rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1170,12 +1177,12 @@ p {
     margin-top: -1.5rem;
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
   .lg\:mt-24 {
     margin-top: 6rem;
+  }
+
+  .lg\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .lg\:block {
@@ -1200,10 +1207,6 @@ p {
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:w-0 {
-    width: 0px;
   }
 
   .lg\:w-auto {
