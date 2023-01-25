@@ -9,8 +9,6 @@ hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('hidden')
 })
 
-console.log(navLinks)
-
 // navbar fixed
 window.onscroll = () => {
   const header = document.querySelector('header')
@@ -20,7 +18,6 @@ window.onscroll = () => {
   } else {
     header.classList.remove('navbar-fixed')
   }
-  console.log(window.pageYOffset)
 }
 
 // swiper js

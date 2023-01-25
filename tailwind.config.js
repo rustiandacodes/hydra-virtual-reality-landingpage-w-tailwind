@@ -20,6 +20,9 @@ module.exports = {
         h3: '24px',
         paragraph: 'clamp(0.75rem, calc(0.66rem + 0.43vw), 1.00rem)',
       },
+      backgroundImage: {
+        techImage: "url('/dist/assets/technologies-img.png')",
+      },
     },
   },
   plugins: [],

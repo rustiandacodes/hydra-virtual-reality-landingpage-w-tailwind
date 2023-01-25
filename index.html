@@ -53,7 +53,7 @@
     <!-- Navbar End -->
 
     <!-- Hero Section First -->
-    <section id="hero" class="lg:pt-48 pt-32 pb-26 overflow-hidden sm:overflow-auto">
+    <section id="hero" class="lg:pt-48 pt-32 pb-26 overflow-hidden">
       <div class="container relative mx-auto">
         <img
           src="/dist/assets/Vector 4.svg"
@@ -166,7 +166,7 @@
     <!-- Hero Section End -->
 
     <!-- About Section First -->
-    <section id="about" class="pt-28 lg:32 relative">
+    <section id="about" class="pt-28 lg:pt-32 relative">
       <img class="hidden lg:block absolute bottom-1/4 -z-30" src="/dist/assets/about-vector-top.png" alt="vector-about">
       <img class="hidden lg:block absolute bottom-0 -z-30" src="/dist/assets/about-vector-bottom.png" alt="vector-about">
       <div class="container p-4 mx-auto">
@@ -215,7 +215,7 @@
     <!-- About Section End -->
 
     <!-- Services Section Start -->
-    <section id="services" class="pt-20 lg:32">
+    <section id="services" class="pt-20 lg:pt-32">
       <div class="container mx-auto p-4">
         <div class="lg:flex items-center mb-8 lg:mb-24">
           <div class="text-center lg:text-start lg:w-1/2">
@@ -291,6 +291,52 @@
       </div>
     </section>
     <!-- Services Section End -->
+
+    <!-- Technology Section Start -->
+    <section id="technology" class="pt-20 lg:pt-32">
+      <div class="container mx-auto px-4">
+        <div class="w-full bg-techImage bg-center text-center pt-12 lg:pt-20 pb-12 lg:pb-20 rounded-[50px] lg:rounded-full">
+           <h2 class="uppercase text-h3 lg:text-h2 font-bold">Technologies & hardware</h2>
+           <h2 class="uppercase text-h3 lg:text-h2 font-extralight">use by hydra var</h2>
+        </div>
+            <div class="swiper servicesSwiper relative cursor-grab mt-8 lg:mt-14">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper flex items-center">
+                <!-- Slides -->
+                <div class="swiper-slide w-full mx-auto">
+                  <div class=" flex justify-center items-center gap-5">
+                    <img class="w-32" src="/dist/assets/Hydra-Tech1.svg" alt="Technologies">
+                  </div>
+                </div>
+                <div class="swiper-slide w-full mx-auto">
+                  <div class=" flex justify-center items-center gap-5">
+                    <img class="w-52" src="/dist/assets/Hydra-Tech2.svg" alt="Technologies">
+                  </div>
+                </div>
+                <div class="swiper-slide w-full mx-auto">
+                  <div class=" flex justify-center items-center gap-5">
+                    <img class="w-52" src="/dist/assets/Hydra-Tech3.svg" alt="Technologies">
+                  </div>
+                </div>
+                <div class="swiper-slide w-full mx-auto">
+                  <div class=" flex justify-center items-center gap-5">
+                    <img class="w-52" src="/dist/assets/Hydra-Tech4.svg" alt="Technologies">
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-full lg:hidden flex justify-between absolute top-[35%] px-2 ">
+                <div class="button-prev z-50">
+                  <img src="/dist/assets/prev-services.svg" alt="icon">
+                </div>
+                <div class="button-next z-50">
+                  <img src="/dist/assets/next-services.svg" alt="icon">
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+    <!-- Technology Section End -->
 
   </body>
   <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
