@@ -14,7 +14,7 @@
     <!-- style css from compailer -->
     <link rel="stylesheet" href="/dist/output.css" />
     <!-- style css from swiper -->
-    <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/dist/swiper/swiper-bundle.min.css" />
 
 
 
@@ -297,7 +297,7 @@
       <div class="container mx-auto px-4">
         <div class="w-full bg-techImage bg-center text-center pt-12 lg:pt-20 pb-12 lg:pb-20 rounded-[50px] lg:rounded-full">
            <h2 class="uppercase text-h3 lg:text-h2 font-bold">Technologies & hardware</h2>
-           <h2 class="uppercase text-h3 lg:text-h2 font-extralight">use by hydra var</h2>
+           <h2 class="uppercase text-h3 lg:text-h2 font-extralight">use by hydra vr.</h2>
         </div>
             <div class="swiper servicesSwiper relative cursor-grab mt-8 lg:mt-14">
               <!-- Additional required wrapper -->
@@ -338,8 +338,91 @@
     </section>
     <!-- Technology Section End -->
 
+    <!-- How To Section First -->
+    <section id="how-to" class="pt-20 lg:pt-32"> 
+      <div class="container mx-auto p-4">
+        <div class="lg:flex items-center mb-8 lg:mb-24">
+          <div class="text-center lg:text-start lg:w-1/2">
+            <h2 class="uppercase font-bold">how we build</h2>
+            <div class="lg:flex items-center gap-8 lg:-mt-6">
+              <h2 class="uppercase font-extralight">with hydra vr?</h2>
+              <span class="hidden lg:inline"><img src="/dist/assets/long-arrow.svg" alt="long-arrow"></span>
+            </div>
+          </div>
+          <div class="hidden lg:block w-1/2
+          ">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto repudiandae debitis sint tempora atque, sed porro facilis architecto aliquam corrupti. Aspernatur ipsam natus doloremque, itaque nulla perspiciatis aperiam fugiat soluta!</p>
+          </div>
+        </div>
+            <div class="swiper servicesSwiper relative cursor-grab">
+              <img class="absolute scale-110 scale-y-90 hidden lg:block" src="/dist/assets/Vector-how-to-bg.svg" alt="bg-pattern">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper flex">
+                <!-- Slides -->
+                <div class="swiper-slide w-full h-full p-4">
+                  <div class="h-auto flex flex-col gap-5 items-center">
+                    <div class="w-24 h-24 lg:w-32 lg:h-32 mx-auto bg-gradient rounded-full flex justify-center items-center ring-[10px] ring-purpleCorner ring-opacity-90">
+                      <p class="text-h1 font-extrabold text-primary">01</p>
+                    </div>
+                    <div class="flex gap-3 ">
+                      <span class="hidden lg:block"><img src="/dist/assets/arrow-how-to-section.svg" alt="icon"></span>
+                      <h3 class="font-bold text-2xl text-center lg:text-start w-48">3D Conception & Design</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slides -->
+                <div class="swiper-slide w-full h-full p-4">
+                  <div class="h-auto flex flex-col gap-5 items-center">
+                    <div class="w-24 h-24 lg:w-32 lg:h-32 mx-auto bg-gradient rounded-full flex justify-center items-center ring-[10px] ring-purpleCorner ring-opacity-90">
+                      <p class="text-h1 font-extrabold text-primary">02</p>
+                    </div>
+                    <div class="flex gap-3 w-52">
+                      <span class="hidden lg:block"><img src="/dist/assets/arrow-how-to-section.svg" alt="icon"></span>
+                      <h3 class="font-bold text-2xl text-center lg:text-start w-48">Interaction Design</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slides -->
+                <div class="swiper-slide w-full h-full p-4">
+                  <div class="h-auto flex flex-col gap-5 items-center">
+                    <div class="w-24 h-24 lg:w-32 lg:h-32 mx-auto bg-gradient rounded-full flex justify-center items-center ring-[10px] ring-purpleCorner ring-opacity-90">
+                      <p class="text-h1 font-extrabold text-primary">03</p>
+                    </div>
+                    <div class="flex gap-3 w-52">
+                      <span class="hidden lg:block"><img src="/dist/assets/arrow-how-to-section.svg" alt="icon"></span>
+                      <h3 class="font-bold text-2xl text-center lg:text-start w-48">VR World User Testing</h3>
+                    </div>
+                  </div>
+                </div>
+                <!-- Slides -->
+                <div class="swiper-slide w-full h-full p-4">
+                  <div class="h-auto flex flex-col gap-5 items-center">
+                    <div class="w-24 h-24 lg:w-32 lg:h-32 mx-auto bg-gradient rounded-full flex justify-center items-center ring-[10px] ring-purpleCorner ring-opacity-90">
+                      <p class="text-h1 font-extrabold text-primary">04</p>
+                    </div>
+                    <div class="flex gap-3 w-48">
+                      <span class="hidden lg:block"><img src="/dist/assets/arrow-how-to-section.svg" alt="icon"></span>
+                      <h3 class="font-bold text-2xl text-center lg:text-start w-48">Hydra VR Deploy</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- next and prev button -->
+              <div class="w-full lg:hidden flex justify-between absolute top-[64%] px-2 ">
+                <div class="button-prev z-50">
+                  <img src="/dist/assets/prev-services.svg" alt="icon">
+                </div>
+                <div class="button-next z-50">
+                  <img src="/dist/assets/next-services.svg" alt="icon">
+                </div>
+              </div>
+            </div>
+      </div>
+    </section>
+    <!-- How To Section End -->
+
   </body>
-  <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
+  <script src="/dist/swiper/swiper-bundle.min.js"></script>
   <script src="/dist/js/swiper.js"></script>
   <script src="/dist/js/script.js"></script>
 </html>
