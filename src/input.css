@@ -18,7 +18,7 @@
 
 @layer components {
   .btn-gradient {
-    @apply max-w-lg lg:max-w-fit mx-auto lg:mx-0 block text-center text-sm lg:text-xs text-primary uppercase font-semibold px-6 py-3 rounded-full bg-gradient-to-r from-gradientLeft to-gradientRight shadow-lg hover:opacity-80 transition duration-500;
+    @apply max-w-lg lg:max-w-fit mx-auto lg:mx-0 block text-center text-sm lg:text-xs text-primary uppercase font-semibold px-8 py-4 rounded-full bg-gradient-to-r from-gradientLeft to-gradientRight shadow-lg hover:opacity-80 transition duration-500;
   }
 }
 
