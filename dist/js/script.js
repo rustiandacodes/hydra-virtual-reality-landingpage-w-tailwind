@@ -22,7 +22,7 @@ window.onscroll = () => {
 
 // swiper js
 let swiper = new Swiper('.mySwiper', {
-  spaceBetween: 10,
+  spaceBetween: 30,
   slidesPerGroup: 1,
   loop: true,
   centerSlide: 'true',

@@ -67,5 +67,5 @@
 }
 
 .nav-links {
-  @apply flex flex-col gap-5 lg:flex-none items-center justify-between absolute left-[38%] top-1/4 h-72;
+  @apply flex flex-col gap-5 lg:flex-none items-center justify-between absolute w-full top-1/4 h-72;
 }
